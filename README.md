@@ -4,7 +4,8 @@ A Christmas hackathon for a good cause — Saturday 5 December 2026 at Klustret,
 
 Static website (no build step, Vercel-ready `public/` output directory).
 
-- **Live:** https://hack4good-stockholm.vercel.app
+- **Live:** https://hack4good.stockholm.ai/
+- **Vercel alias:** https://hack4good-stockholm.vercel.app
 - **GitHub:** https://github.com/Stockholm-AI/hack4good-stockholm
 - **Vercel project:** https://vercel.com/stockholm-ai/hack4good-stockholm
 - **Registration:** https://luma.com/n8n-0b2j
