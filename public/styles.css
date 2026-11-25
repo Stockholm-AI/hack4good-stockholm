@@ -242,18 +242,54 @@ nav a:hover {
   padding: 72px 0 64px;
 }
 
+.hero-title-block {
+  margin-bottom: 24px;
+}
+
 h1 {
   font-family: var(--font-display);
   font-size: clamp(54px, 8.6vw, 108px);
   line-height: 0.96;
   font-weight: 700;
   letter-spacing: -0.045em;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   color: #ffffff;
 }
 
 .accent-dot {
   color: var(--accent);
+}
+
+.hero-sponsor {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.04);
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.hero-sponsor:hover {
+  border-color: rgba(255, 145, 172, 0.55);
+  background: rgba(255, 145, 172, 0.08);
+  transform: translateY(-1px);
+}
+
+.hero-sponsor-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--muted);
+}
+
+.hero-sponsor img {
+  height: 24px;
+  width: auto;
 }
 
 .hero-subtitle {
@@ -1140,6 +1176,7 @@ details[open] .toggle::after {
   }
   .button,
   .nav-cta,
+  .hero-sponsor,
   .partner-logo-link,
   .toggle::after {
     transition: none;
