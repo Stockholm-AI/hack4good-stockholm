@@ -12,9 +12,8 @@
   --subtle: #787874;
   --line: #2a2a28;
   --line-strong: #3a3a37;
-  --accent: #F5C83D;
-  --accent-hover: #e6b828;
   --pink: #FF91AC;
+  --pink-hover: #ff7a9b;
   --gold: #F5C83D;
   --orange: #E86A17;
   --green: #7CB342;
@@ -52,12 +51,12 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--pink);
 }
 
 a:focus-visible,
 summary:focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--pink);
   outline-offset: 4px;
   border-radius: 4px;
 }
@@ -79,11 +78,11 @@ p + p {
 code {
   font-family: var(--font-mono);
   font-size: 0.88em;
-  background: rgba(245, 200, 61, 0.12);
-  color: var(--accent);
+  background: rgba(255, 145, 172, 0.12);
+  color: var(--pink);
   padding: 2px 7px;
   border-radius: 5px;
-  border: 1px solid rgba(245, 200, 61, 0.28);
+  border: 1px solid rgba(255, 145, 172, 0.25);
 }
 
 .wrap {
@@ -95,7 +94,7 @@ code {
   position: absolute;
   top: 12px;
   left: 12px;
-  background: var(--accent);
+  background: var(--pink);
   color: var(--ink-dark);
   font-weight: 600;
   padding: 10px 16px;
@@ -147,8 +146,8 @@ code {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 12px rgba(245, 200, 61, 0.5);
+  background: var(--pink);
+  box-shadow: 0 0 12px rgba(255, 145, 172, 0.55);
   flex-shrink: 0;
 }
 
@@ -178,7 +177,7 @@ nav a:hover {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--accent);
+  background: var(--pink);
   color: var(--ink-dark);
   font-weight: 600;
   padding: 8px 15px;
@@ -187,7 +186,7 @@ nav a:hover {
 }
 
 .nav-cta:hover {
-  background: var(--accent-hover);
+  background: var(--pink-hover);
   color: var(--ink-dark);
   transform: translateY(-1px);
 }
@@ -225,15 +224,15 @@ nav a:hover {
 }
 
 .pill-pink {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--pink);
+  border-color: var(--pink);
   color: var(--ink-dark);
   font-weight: 600;
 }
 
 .pill-gold {
   border-color: rgba(245, 200, 61, 0.45);
-  color: var(--accent);
+  color: var(--gold);
   background: rgba(245, 200, 61, 0.08);
 }
 
@@ -257,7 +256,7 @@ h1 {
 }
 
 .accent-dot {
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .hero-sponsor {
@@ -332,14 +331,14 @@ h1 {
 }
 
 .button-primary {
-  background: var(--accent);
+  background: var(--pink);
   color: var(--ink-dark);
-  border: 1px solid var(--accent);
+  border: 1px solid var(--pink);
 }
 
 .button-primary:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
+  background: var(--pink-hover);
+  border-color: var(--pink-hover);
   color: var(--ink-dark);
   transform: translateY(-1px);
 }
@@ -425,7 +424,7 @@ h1 {
 }
 
 .host-free {
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .host-logos {
@@ -572,7 +571,7 @@ h3 {
 }
 
 .quick-nav a:hover {
-  border-color: var(--accent);
+  border-color: var(--pink);
   color: var(--ink);
 }
 
@@ -859,7 +858,7 @@ details[open] .toggle::after {
 }
 
 .timeline-highlight time {
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .timeline h3 {
@@ -896,7 +895,7 @@ details[open] .toggle::after {
   font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .rule-card h3 {
@@ -921,7 +920,7 @@ details[open] .toggle::after {
 
 .pitch-formula .eyebrow {
   margin-bottom: 14px;
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .formula-steps {
@@ -943,8 +942,8 @@ details[open] .toggle::after {
   width: 22px;
   height: 22px;
   border-radius: 50%;
-  background: rgba(245, 200, 61, 0.16);
-  color: var(--accent);
+  background: rgba(255, 145, 172, 0.16);
+  color: var(--pink);
   font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 600;
@@ -1004,8 +1003,8 @@ details[open] .toggle::after {
 }
 
 .join-card {
-  background: linear-gradient(135deg, #1d1c17 0%, #181818 100%);
-  border: 1px solid rgba(245, 200, 61, 0.32);
+  background: linear-gradient(135deg, #1d1b1d 0%, #181818 100%);
+  border: 1px solid rgba(255, 145, 172, 0.3);
   border-radius: 22px;
   padding: 40px 44px;
   display: flex;
@@ -1016,7 +1015,7 @@ details[open] .toggle::after {
 }
 
 .join-card .eyebrow {
-  color: var(--accent);
+  color: var(--pink);
   margin-bottom: 10px;
 }
 
@@ -1069,7 +1068,7 @@ details[open] .toggle::after {
 }
 
 .footer-partners a:hover {
-  color: var(--accent);
+  color: var(--pink);
 }
 
 .footer-bottom {
